@@ -4,7 +4,6 @@ const config = {
   entry: {
     main: "./src/main.tsx",
   },
-
   devServer: {
     historyApiFallback: true,
     allowedHosts: "all",
@@ -36,9 +35,12 @@ const config = {
       },
     ],
   },
-  plugins: [new rspack.HtmlRspackPlugin({ template: "./index.html" })].filter(
-    Boolean
-  ),
+  plugins: [
+    new rspack.HtmlRspackPlugin({
+      template: "./index.html",
+      favicon: "./public/logo.png",
+    }),
+  ].filter(Boolean),
 };
 
 module.exports = config;
