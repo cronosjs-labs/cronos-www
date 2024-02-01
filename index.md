@@ -5,7 +5,8 @@ layout: home
 hero:
   name: "CRONOS"
   text: "Next Generation Fullstack Tooling"
-  image: /Logo.png
+  image:
+    src: /logo.png
   tagline: Where research and development grows
   actions:
     - theme: brand
