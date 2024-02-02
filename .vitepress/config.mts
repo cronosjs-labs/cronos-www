@@ -3,22 +3,21 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "CRONOS",
+  head: [["link", { rel: "icon", href: "/logo.png" }]],
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Packages", link: "/markdown-examples" },
+      { text: "Packages", link: "/packages" },
     ],
     sidebar: [
       {
         text: "Packages",
-        items: [{ text: "Markdown Examples", link: "/markdown-examples" }],
+        items: [{ text: "Create Cronos", link: "/createcronos" }],
       },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/cronosjs-labs" }],
   },
 });
