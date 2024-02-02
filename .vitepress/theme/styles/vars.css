@@ -4,6 +4,9 @@
   --vp-c-bg: #f5f5f5;
   --vp-c-bg-soft: #ededed;
   --vp-button-brand-bg: #ea2f00;
+  --vp-button-brand-color: #fff;
+  --vp-button-brand-hover-bg: #eabf00;
+  --vp-button-brand-hover-color: #fff;
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
     #ea2f00 0%,
@@ -15,4 +18,12 @@
 .dark {
   --vp-c-bg: #0f0e0e;
   --vp-c-bg-soft: #090909;
+}
+
+.dark .vp-code span {
+  color: #fff;
+}
+
+html:not(.dark) .vp-code span {
+  color: #000;
 }
