@@ -11,18 +11,19 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /markdown-examples
+      link: /createcronos
     - theme: alt
       text: View on GitHub
+      link: https://github.com/cronosjs-labs
 
 features:
   - title: Open Source
     icon: 🌐
-    details: To collectively improve the software development experience.
+    details: To advance in a collaborative, transparent, and adaptable way to other projects.
   - title: Fullstack
     icon: 📦
-    details: Tools are designed to work together to provide a seamless fullstack experience.
+    details: To work on both backend, frontend and provide a complete development experience.
   - title: Modern
     icon: 🚀
-    details: Tools are designed to be modern and forward thinking.
+    details: To build tools with a vision for the future in software development.
 ---
