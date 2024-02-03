@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Packages", link: "/packages" },
+      { text: "Packages", link: "/createcronos" },
     ],
     sidebar: [
       {
