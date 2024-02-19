@@ -26,4 +26,7 @@ features:
   - title: Modern
     icon: 🚀
     details: To build tools with a vision for the future in software development.
+  - title: TypeScript Support
+    icon: ♾️
+    details: To define static data types for variables, function parameters, and other code elements.
 ---
