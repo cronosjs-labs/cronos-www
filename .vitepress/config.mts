@@ -9,12 +9,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Packages", link: "/createcronos" },
+      { text: "Create Cronos", link: "/createcronos" },
     ],
     sidebar: [
       {
-        text: "Packages",
-        items: [{ text: "Create Cronos", link: "/createcronos" }],
+        text: "Create Cronos",
+        items: [{ text: "Get Started", link: "/createcronos" }, { text: "API", link: "/createcronosAPI" },
+        { text: "CLI", link: "/createcronosCLI" }],
+        
       },
     ],
 
