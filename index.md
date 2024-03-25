@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "CRONOS"
+  name: "cronosjs-labs"
   text: "Next Generation Fullstack Tooling"
   image:
     src: /logo.png
@@ -27,6 +27,6 @@ features:
     icon: 🚀
     details: To build tools with a vision for the future in software development.
   - title: TypeScript Support
-    icon: ♾️
+    icon: 🔑
     details: To define static data types for variables, function parameters, and other code elements.
 ---
