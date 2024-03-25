@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "CRONOS",
+  title: "cronosjs-labs",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   description: "A VitePress Site",
   themeConfig: {
